@@ -5,7 +5,7 @@ const requestOptions = {
 
 document.addEventListener("DOMContentLoaded", () => {
   fetch(
-    "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=010889d145c14f7d81cad620ddd7c16f",
+    "https://gnews.io/api/v4/search?q=example&apikey=1cfe5754d1b50e3d67b5763bf6678e3c",
     requestOptions
   )
     .then((response) => response.json())
